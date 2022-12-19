@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    background-image: url(img/bg-image.jpg);
+    background-size: cover;
+}
+
+tbody th {
+    width: 100px;
+}
+
+tbody td {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.input-group{
+    margin-bottom: 50px;
+}
+
+.true {
+    background-color: rgb(106, 230, 106);
+}
+
+.false{
+    background-color: rgb(216, 86, 86);
+}
+
+#guess {
+    background-color: rgb(63, 63, 63);
+    color: white;
+    font-weight: bold;
+}
+
+#charInput {
+    border: 2px solid black;
+}
+
+.fade-in-image { animation: fadeIn 2s; }
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
