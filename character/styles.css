@@ -1,17 +1,22 @@
 body {
     margin: 0;
-    background-image: url(img/bg-image.jpg);
+    background-image: url(../img/bg-image.jpg);
     background-size: cover;
 }
 
-tbody th {
+th {
     width: 100px;
+    text-align: center;
+    background-color: rgb(31, 30, 30);
+    color: white;
 }
 
-tbody td {
+td {
     width: 100px;
     height: 100px;
-    margin: 10px;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 20px;
 }
 
 .input-group{
@@ -20,10 +25,19 @@ tbody td {
 
 .true {
     background-color: rgb(106, 230, 106);
+    width: 100px;
+    height: 100px;
 }
 
 .false{
     background-color: rgb(216, 86, 86);
+    width: 100px;
+    height: 100px;
+}
+
+.charIcon{
+    width: 100px;
+    height: 100px;;
 }
 
 #guess {
@@ -43,3 +57,10 @@ tbody td {
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
+
+
+.col-md-12 {
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+}

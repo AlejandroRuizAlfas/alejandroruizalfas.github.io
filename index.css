@@ -1,0 +1,49 @@
+/* INDEX */
+body {
+    margin: 0;
+    background-image: url(img/bg-image.jpg);
+    background-size: cover;
+}
+
+.menu-item {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+.menu-item:hover {
+    transform: scale(1.1);
+  }
+
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-item {
+    background-color: lightgreen;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.genshindle {
+    transform: scale(0.5, 0.5);
+    display: block;
+    margin: 0 auto;
+}
+  .menu {
+    margin-top: 20px;
+  }
+  
