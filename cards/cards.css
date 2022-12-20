@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background-image: url(../img/bg-image.jpg);
+    background-size: cover;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  background-image: url(../img/primogem.webp);
+  background-size: cover;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.card.visible {
+  background-color: white;
+  background-image: none;
+}
+
+#game-container {
+  /* Set the width and height of the board */
+  width: 500px;
+  height: 500px;
+
+  /* Set the display to flex to lay out the div elements in a grid */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#game-container div {
+  /* Set the width and height of each div element */
+  width: 20%;
+  height: 20%;
+
+  /* Add some styling to make the div elements look like a board */
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+.charIcon{
+  width: 100px;
+  height: 100px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 5%;
+}
+
+  
+  
