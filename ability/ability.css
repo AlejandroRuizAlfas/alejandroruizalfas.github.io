@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    background-image: url(../img/bg-image.jpg);
+    background-size: cover;
+}
+
+th {
+    width: 100px;
+    text-align: center;
+    background-color: rgb(31, 30, 30);
+    color: white;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+.input-group{
+    margin-bottom: 50px;
+}
+
+.true {
+    background-color: rgb(106, 230, 106);
+    width: 100px;
+    height: 100px;
+}
+
+.false{
+    background-color: rgb(216, 86, 86);
+    width: 100px;
+    height: 100px;
+}
+
+.charIcon{
+    width: 100px;
+    height: 100px;;
+}
+
+#guess {
+    background-color: rgb(63, 63, 63);
+    color: white;
+    font-weight: bold;
+}
+
+#charInput {
+    border: 2px solid black;
+    width: 200px;
+}
+
+.fade-in-image { animation: fadeIn 2s; }
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+
+.col-md-12 {
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+#ability-img{
+    margin-bottom: 50px;
+}
+
+.incorrect{
+    background-color: rgb(216, 86, 86);
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin: 20px;
+    font-weight: bolder;
+}
+
+.correct {
+    background-color: rgb(106, 230, 106);
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin: 20px;
+    font-weight: bolder;
+}
+
+.input-group {
+    width: 600px;
+}
+
+.hidden {
+    display: none;
+}
+
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup-card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    width: auto;
+    padding: 20px;
+  }
+
+
+  .charSplash {
+    width: 600px;
+    height: 550px;
+  }
+
+  .button-stack {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .button-stack button {
+    margin: 10px 0;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bolder;
+  }
+
+  .button-stack button:hover {
+    background-color: aqua;
+  }
+
+  .popup-card {
+    display: flex;
+  }
+  
+  .charSplash-container {
+    flex: 1;
+  }
+  
+  .button-stack {
+    flex: 1;
+  }
+  
+  
