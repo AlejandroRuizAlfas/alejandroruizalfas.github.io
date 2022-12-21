@@ -1,7 +1,8 @@
 /* INDEX */
 body {
     margin: 0;
-    background-image: url(img/bg-image.jpg);
+    /* background-image: url(img/bg-image.jpg); */
+    background-color: #ede5d8;
     background-size: cover;
 }
 
@@ -28,14 +29,26 @@ body {
 }
 
 .menu-item {
-    background-color: lightgreen;
+    background-size: cover;
     width: 200px;
     height: 200px;
     margin: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50px;
+}
+
+.menu-item-1{
+  background-image: url(img/menu-Icon-char.png);
+}
+.menu-item-2{
+  background-image: url(img/menu-Icon-ability.png);
+}
+.menu-item-3{
+  background-image: url(img/menu-Icon-card.png);
+}
+.menu-item-4{
+  background-image: url(img/menu-Icon-soon.png);
 }
 
 .genshindle {
