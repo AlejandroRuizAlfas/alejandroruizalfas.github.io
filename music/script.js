@@ -27,15 +27,22 @@ function shuffleArray(array) {
 }
 
 function createPairs(array) {
-	const shuffledArray = [...array];
-	shuffleArray(shuffledArray);
+	const uniqueArray = [...new Set(array)]; // Elimina duplicados
+
+	if (uniqueArray.length < 2) {
+		console.log('No hay suficientes elementos únicos para crear parejas.');
+		return [];
+	}
+
+	shuffleArray(uniqueArray);
+
+	const numPairs = Math.floor(uniqueArray.length / 2);
 	const pairs = [];
 
-	for (let i = 0; i < shuffledArray.length; i += 2) {
-		if (i + 1 < shuffledArray.length) {
-			pairs.push([shuffledArray[i], shuffledArray[i + 1]]);
-		}
+	for (let i = 0; i < numPairs * 2; i += 2) {
+		pairs.push([uniqueArray[i], uniqueArray[i + 1]]);
 	}
+
 	pairs.forEach((pair, index) => {
 		console.log(`Pareja ${index + 1}: ${pair[0]} - ${pair[1]}`);
 	});
